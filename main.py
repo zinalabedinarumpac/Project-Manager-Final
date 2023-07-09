@@ -18,8 +18,8 @@ def main():
     c.execute("""CREATE TABLE IF NOT EXISTS memberlist (
                   ID_NUMBER,
                   NAME,
-                  status,
-                  task,
+                  STATUS,
+                  TASK,
                   PROJECT_CODE
                   )""")
 
